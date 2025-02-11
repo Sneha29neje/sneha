@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amazon Customer Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <li><a href=amazon2.html>all</a></li>
+    <li><a href=customer.html>customer service</a></li>
+    <li><a href=gifts.html>Gift cards</a></li>
+    <li><a href=fashion.html>fashion</a></li>
+    <style>
+        <nav>
+          <div class="nav-center">
+                <select class="search-dropdown">
+                    <option>All</option>
+                    <option>All Departments</option>
+                    <option>Arts & Crafts</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" 
+                    class="search-box">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" 
+                        style="color: #28416c;">
+                    </i>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="language-option">
+                    <div class="flag">
+                        <i class="fa-regular fa-flag"></i>
+                    </div>
+                    <select class="select-language">
+                        <option value="lan">EN</option>
+                        <option value="lan">ES</option>
+                        <option value="lan">AR</option>
+                    </select>
+                </div>
+
+                <div class="account-option">
+                    <p class="top-text">
+                        Hello, sign in
+                    </p>
+                    <select class="select-account">
+                        <option value="Account">
+                            Account & Lists
+                        </option>
+                        <option value="Account">
+                            Account & Lists
+                        </option>
+                        <option value="Account">
+                            Account & Lists
+                        </option>
+                    </select>
+                </div>
+
+                <div class="order-option">
+                    <p class="top-text">
+                        Returns
+                    </p>
+                    <p class="bottom-text">
+                        & Orders
+                    </p>
+                </div>
+
+                <div class="cart-option">
+                    <div class="cart-logo">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    Cart
+                </div>
+            </div>
+        </nav>
+
+        <div class="nav-options">
+            <div class="all-logo">
+                <i class="fa-solid fa-bars"></i>
+                <p class="list">All</p>
+            </div>
+
+            <div class="options">
+                
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p> Sell</p>
+            </div>
+        </div>
+    </header>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .service-options {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .service-option {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 0 10px;
+            width: 200px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .service-option h2 {
+            margin: 10px 0;
+            color: #232f3e;
+        }
+        .service-option p {
+            color: #555;
+        }
+        .contact-form {
+            width: 50%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #232f3e;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff9900;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+        }
+        .contact-form button:hover {
+            background-color: #ff6600;
+        }
+        footer {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Amazon Customer Service</h1>
+    </header>
+
+    <div class="service-options">
+        <div class="service-option">
+            <h2>Track Your Order</h2>
+            <p>Find the status of your current orders.</p>
+        </div>
+        <div class="service-option">
+            <h2>Return an Item</h2>
+            <p>Request a return or refund for a product.</p>
+        </div>
+        <div class="service-option">
+            <h2>Product Support</h2>
+            <p>Get help with product issues or setup.</p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Amazon Customer Service | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
